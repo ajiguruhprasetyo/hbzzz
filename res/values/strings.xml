@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Deteksi Detak Jantung</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_pemanasan">Pemanasan</string>
+    <string name="menu_membakarlemak">Membakar Lemak</string>
+    <string name="menu_kardiojantung">Kardio Jantung</string>
+    <string name="menu_berlebihan">Olahraga Yang Berlebihan</string>
+    <string name="menu_maksimal">Maksimal</string>
+    
+    <color name="pink">#ff0099</color>
+    <color name="hitam">#000000</color>
+    
+    
+    <string name="action_exit">Exit</string>
+    <string name="action_about">About</string>
+     <string name="action_help">Help</string>
+    <string name="help">Petuntuk Pemakaian</string>
+    <string name="aktifitasjantung">Informasi Aktifitas Detak Jantung</string>
+    <string name="txtCardio">Kardio Jantung</string>
+    <string name="txtMaksimal">Maksimal</string>
+    <string name="txtMax">Maksimal</string>
+   
+    <string name="about">Tentang Kami</string>
+    <string name="contenAbout">Aplikasi Deteksi Detak Jantung</string>
+    <string name="version">Version 1.0</string>
+    <string name="contentAbout">Created By Aji Guruh Prasetyo</string>
+    <string name="copyright">"@2014"</string>
+    <string name="membakarlemak">Membakar Lemak</string>
+    <string name="contenpemanasan">50%-60% detak jantung maksimal anda</string>
+    <string name="contentpemanasan">"zona ini adalah yang paling intens, karena dalam melakukan olah raga ini tahap paling awal dan terpenting agar tidak terjadi cedera. "</string>
+
+    <string name="contenmaksimal">90%-100% detak jantung maksimal anda</string>
+    <string name="maksimal">Maksimal</string>
+    <string name="kardio">Kardio Jantung</string>
+    <string name="contenkardio">70%-80% detak jantung maksimal anda</string>
+    <string name="contentkardio">Juga disebut zona aerobik. Di zona ini, anda akan mendapatkan manfaat kesehatan terbesar secara keseluruhan . Hati dan kapasitas paru-paru akan meningkat dan kebugaran pengguna secara keseluruhan juga akan meningkat , sehingga pengguna akan dapat berolahraga lebih lama. Tubuh Anda akan mendapatkan 50 % kalori dari lemak, 50 % dari karbohidrat, dan membakar protein akan minimal.</string>
+    <string name="Pemanasan">Pemanasan</string>
+    <string name="pemanasan">Pemanasan</string>
+    <string name="berlebihan">Olah raga yang berlebihan</string>
+    <string name="contenberlebihan">80%-90% detak jantung maksimal anda</string>
+    <string name="contentberlebihan">Juga disebut zona anaerobik . Ini adalah latihan yang sangat intens dan harus dibatasi tidak lebih dari 10 – 20 menit. Kemampuan tubuh anda untuk mengkonsumsi oksigen akan meningkat. Jika anda mendorong terlalu keras tubuh anda akan mulai memproduksi asam lastic. Tubuh Anda akan membakar 85 % karbohidrat, 15 lemak, dan persentase minimal protein.</string>
+    <string name="contenmembakarlemak">60%-70% detak jantung maksimal anda</string>
+    <string name="contentmembakarlemak">Mengetahui informasi di zona ini jika tujuan Anda adalah untuk menurunkan berat badan. Tubuh Anda didorong oleh 10 % karbohidrat , 5 % protein dan 85 % lemak . Jumlah sebenarnya dari kalori yang dibakar per menit akan kurang dari di zona yang lebih tinggi, tetapi Anda akan mampu mempertahankan latihan lagi.</string>
+    <string name="contentmaksimal">Anda melakukan olah raga aktifitas jantung melebihi aktifitas yang dianjurkan sehingga perlu dibatasi, dan harus berkonsultasi dengan dokter anda, untuk memeriksa apakah anda dapat berolahraga di zona ini dengan aman. </string>
+    <string name="default_text">00</string>
+    <string name="contentHelp">Tempelkan ujung jari telunjuk anda dengan lembut di lensa kamera, jangan menekan terlalu keras karena hal ini dapat menghentikan aliran darah pada permukaan jari anda yang mengakibatkan perhitungan tidak akurat. Pegang dan jangan digerak-gerakan setidaknya selama 10 detik detak jantung anda akan di tampilkan. Untuk menstabilkan memerlukan waktu beberapa detik, yang terpenting bahwa anda menggunakan aplikasi ini dalam kondisi yang cukup terang jika flash LED tidak dapat menyala.</string>
+    
+
+</resources>

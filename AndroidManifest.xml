@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.deteksidetakjantung"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <supports-screens android:anyDensity="true" 
+        android:smallScreens="true" 
+        android:normalScreens="true" 
+        android:largeScreens="true" />
+    
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Animation" >
+        
+       <activity
+            android:name="com.deteksidetakjantung.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 
+       <activity
+            android:name="com.deteksidetakjantung.MenuUtama"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        
+        <activity android:name="com.deteksidetakjantung.DetakJantung"></activity>
+        <activity android:name="com.deteksidetakjantung.LogDeteksi"></activity>
+        <activity android:name="com.deteksidetakjantung.AktifitasJantung"></activity>
+        <activity android:name="com.deteksidetakjantung.About"></activity>
+        <activity android:name="com.deteksidetakjantung.Help" ></activity>
+        
+        <activity android:name="com.deteksidetakjantung.aktifitas.List1Activity"
+            	  android:label="@string/menu_pemanasan" ></activity>
+        <activity android:name="com.deteksidetakjantung.aktifitas.List2Activity"
+            	  android:label="@string/membakarlemak" ></activity>
+        <activity android:name="com.deteksidetakjantung.aktifitas.List3Activity"
+            	  android:label="@string/menu_kardiojantung" ></activity>
+        <activity android:name="com.deteksidetakjantung.aktifitas.List4Activity"
+            	  android:label="@string/menu_berlebihan" ></activity>
+        <activity android:name="com.deteksidetakjantung.aktifitas.List5Activity"
+            	  android:label="@string/menu_maksimal" ></activity>
+    </application>
+</manifest>
